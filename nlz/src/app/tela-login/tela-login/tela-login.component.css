@@ -1,3 +1,9 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box {
   position: relative;
   width: 380px;
