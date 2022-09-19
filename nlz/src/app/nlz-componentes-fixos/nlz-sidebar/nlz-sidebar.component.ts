@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { navbarData } from './nav-data';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nlz-sidebar',
   templateUrl: './nlz-sidebar.component.html',
   styleUrls: ['./nlz-sidebar.component.css']
 })
-export class NlzSidebarComponent implements OnInit {
+export class NlzSidebarComponent   {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  collapsed = true;
+  navData = navbarData;
 }
